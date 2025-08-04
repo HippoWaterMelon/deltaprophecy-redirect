@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>oopsies</title>
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <style>
+    @font-face {
+      font-family: 'DTMSans';
+      src: url('./assets/fonts/DTM-Sans.otf') format('opentype');
+      font-display: swap;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'DTMSans', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: black;
+      color: white;
+    }
+
+    h1 {
+      margin: 20px;
+      text-align: center;
+    }
+
+    canvas {
+      margin-top: 20px;
+      image-rendering: pixelated;
+      background: #000;
+      border: 2px solid white;
+      max-width: 90vw;
+      max-height: 90vh;
+    }
+
+    input[type="file"] {
+      display: none;
+    }
+
+    .custom-file-upload,
+    #exportButton {
+      display: inline-block;
+      font-family: 'DTMSans', sans-serif;
+      background-color: black;
+      color: white;
+      border: 2px solid white;
+      padding: 6px 12px;
+      cursor: pointer;
+      margin: 10px;
+      text-align: center;
+      user-select: none;
+    }
+
+    .custom-file-upload:hover,
+    #exportButton:hover {
+      background-color: #222;
+    }
+
+    .custom-file-upload:active,
+    #exportButton:active {
+      background-color: #111;
+    }
+
+    textarea {
+      font-family: 'DTMSans', sans-serif;
+      background-color: black;
+      color: white;
+      border: 2px solid white;
+      padding: 5px 10px;
+      outline: none;
+      border-radius: 0px;
+      width: 75vw;
+      max-width: 512px;
+      box-sizing: border-box;
+      margin: 10px 0;
+      resize: vertical;
+      min-height: 5em;
+      line-height: 1.4em;
+    }
+
+    textarea:focus {
+      outline: none;
+      border-color: #fff;
+      box-shadow: 0 0 5px white;
+    }
+
+    #info {
+      max-width: 512px;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 10px;
+      color: #fff;
+    }
+
+    footer {
+      margin-top: 20px;
+      padding: 10px;
+      color: #fff;
+      font-size: 14px;
+      text-align: center;
+      width: 100%;
+      max-width: 512px;
+    }
+  </style>
+</head>
+<body>
+  <h1>!! UPDATE !!</h1>
+  <div id="info">
+    <p>So, apparently I'm near my monthly data limit on Vercel, so use this site instead!</p>
+    <a href="https://hippowatermelon.github.io/deltaprophecy/">hippowatermelon.github.io/deltaprophecy</a>
+  </div>
+  <footer>
+    <p>© HippoWaterMelon / u/GimkitInfinity 2025 - DELTARUNE © 2025 Toby Fox - Determination Sans by Haley Wakamatsu</p>
+  </footer>
+</body>
+</html>
